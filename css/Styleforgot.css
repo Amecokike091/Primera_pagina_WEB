@@ -1,0 +1,86 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial;
+}
+
+body{
+  background:#fff;
+  font-family: Arial;
+  background-image: linear-gradient(120deg, rgba(161, 196, 253, 0.5) 0%, rgba(194, 233, 251, 0.5) 100%),
+  url(../img/bannerforgot.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+h1{
+  text-align: center;
+  padding: 10px;
+  font-size: 50px;
+}
+
+
+.container{
+  width: 500px;
+  padding: 20px;
+  margin: auto;
+  background-image: linear-gradient(120deg, rgba(161, 196, 253, 0.5) 0%, rgba(194, 233, 251, 0.5) 100%),
+  url(../img/bannerforgot.jpg);
+  background-position: center;
+  background-size: cover;
+  border-radius: 30px;
+}
+
+h2{
+  font-size: 14px;
+  text-align: center;
+  padding: 20px 10px;
+}
+
+.correo{
+  width: 100%;
+  border: none;
+  color: #fff;
+  background: none;
+  border-bottom: solid #fff 2px;
+  padding: 15px;
+  outline: none;
+  margin-bottom: 20px;
+}
+
+.correo:focus{
+  border-bottom: solid #fff;
+}
+
+.form_button{
+  display: flex;
+  justify-content: space-between;
+}
+
+.salir{
+  text-decoration: none;
+  background: red;
+  padding: 5px 20px;
+  color: white;
+  font-size: 16px;
+  border-radius: 10px;
+}
+
+.salir:hover{
+  background: rgb(172, 2, 2);
+}
+
+.enviar{
+  background: green;
+  padding: 8px 15px;
+  color: white;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.enviar:hover{
+  background: rgb(10, 172, 2);
+}

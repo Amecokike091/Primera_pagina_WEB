@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Sitio WEB Introducción a los Sistemas de Computación Sección "B"</title>
+
+<link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="img/1.ico">
+
+    <!--ICONOS-->
+        <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+
+    <!--SLIDER-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+
+    <!--ESTILOS-->
+        <link rel="stylesheet" href="/css/Style.css">
+
+    <!--FUENTES-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;1,500;1,800&display=swap" rel="stylesheet">
+
+  </head>
+
+<body>
+
+<!--HEADER-->
+
+<header class="header" id="inicio">
+      <img src="img/menu.svg" alt="" class="BANNER">
+    <nav class="menu-navegacion">
+      <a href="#inicio">Inicio</a>
+      <a href="#servicio">¿A dónde ir?</a>
+      <a href="#Portafolio">Bellezas y Maravillas</a>
+      <a href="#expertos">Expertos</a>
+      <a href="#Contacto">Contacto</a>
+      <a href="login.html"  target="_blank" >Iniciar sesión</a>
+
+    </nav>
+
+<div class="contenedor head">
+  <h1 class="titulo">Guatemala, tierra de volcanes, maravillas y magia...</h1>
+    <p class="copy"> y fui como un herido por las calles hasta que comprendí que había encontrado,
+      amor, mi territorio de besos y volcanes.    SONETO V - Pablo Neruda</p>
+  </div>
+</header>
+
+
+<!--SLIDER-->
+<section class="slide" id="slider">
+  <div class="slide-wrap">
+      <ul class="slider1">
+          <li id="1"><img src="slider/1.jpg" alt="" class="img-slider"></li>
+          <li id="2"><img src="slider/2.jpg" alt="" class="img-slider"></li>
+          <li id="3"><img src="slider/3.jpg" alt="" class="img-slider"></li>
+          <li id="4"><img src="slider/4.jpg" alt="" class="img-slider"></li>
+          <li id="5"><img src="slider/5.jpg" alt="" class="img-slider"></li>
+      </ul>
+    </div>
+</section>
+
+      <!--SCRIPTS-->
+      <script>
+          $(document).ready(function(){
+            $('.slider1').bxSlider({
+              mode: 'fade',
+            });
+            $('.slider2').bxSlider({
+              mode: 'fade',
+            });
+            $('.slider3').bxSlider({
+              mode: 'fade',
+            });
+            $('.slider4').bxSlider({
+              mode: 'fade',
+            });
+            $('.slider5').bxSlider({
+              mode: 'fade',
+            });
+          });
+        </script>
+
+
+
+
+<!--DETALLE DE LAS MARAVILLAS "SERVICIOS"-->
+
+  <section class="services contenedor" id="servicio">
+    <h2 class="subtitulo">¿A dónder ir?</h2>
+    <div class="contenedor-servicio">
+      <img src="img/Startup.jpg" alt="">
+      <div class="Startup-servicio">
+        <div class="services">
+          <h3 class="n-services"><span class="number">1</span>Guatemala, un paseo inolvidable, recuerdos de una vida...</h3>
+          <p>Es un gusto darte la bienvenida a nuestra página, la cual
+            es una amplia guía de destinos e información relevante que brinda al guatemalteco lo
+            indispensable para programar viajes a los diferentes atractivos naturales y culturales del país.
+            La naturaleza y la cultura se integran para brindar experiencias únicasa todos aquellos que les encanta
+            recorrer las maravillas del país.  Reservas naturales, volcanes, entre muchos otros,
+            hacen que la visita a  los destinos turísticos de las  siete regiones turísticas de Guatemala
+            sea irrepetible.
+          </p>
+              </div>
+              <div class="services">
+                <h3 class="n-services"><span class="number">2</span>¿Por qué visitar los volcanes de Guatemala?</h3>
+                <p>Los volcanes son fenómenos naturales mágicos.
+
+                  No obstante, el atractivo turístico de estos fenómenos naturales no solo reside en su belleza y en la simple observación,
+                  sino que, además, ofrece un sinfín de posibilidades para quienes lo visitan.
+
+                  Todo depende de las características geográficas del volcán y el estado en el que se encuentra al momento
+                  de realizar la visita.
+
+                  Te permiten sentir el poder de la naturaleza de la forma más extrema posible. </p>
+                </div>
+
+                <div class="services">
+                  <h3 class="n-services"><span class="number">3</span>Senderismo y Trekking</h3>
+                  <p>Como otros entornos naturales, la visita a los volcanes de Guatemala te permite disfrutar de
+                  una larga caminata en contacto con la naturaleza. Algunas rutas de acceso son más largas que otras,
+                  por lo que podrás hacer senderismo o trekking, si lo prefieres, para llegar al destino final.</p>
+
+                  <p>Asegúrate de tener el equipamiento adecuado,
+                  así como las condiciones físicas que se requieren en determinados enclaves.
+
+                  <p>Por ello, si estás preparando tu viaje para disfrutar de los volcanes de Guatemala,
+                  te invitamos a navegar por nuestra web.
+                  </p>
+                                          </div>
+</section>
+
+
+<!--GALERIA MUESTRA DE FOTOS-->
+
+<section class="gallery" id="Portafolio">
+   <div class="contenedor">
+       <h2 class="subtitulo">Bellezas y Maravillas</h2>
+
+           <div class="contenedor-galeria">
+            <img src="img/uno.jpg" alt="" class="img-Galeria">
+            <img src="img/dos.jpg" alt="" class="img-Galeria">
+            <img src="img/tres.jpg" alt="" class="img-Galeria">
+            <img src="img/cuatro.jpg" alt="" class="img-Galeria">
+            <img src="img/cinco.jpg" alt="" class="img-Galeria">
+            <img src="img/seis.jpg" alt="" class="img-Galeria">
+            <img src="img/siete.jpg" alt="" class="img-Galeria">
+            <img src="img/ocho.jpg" alt="" class="img-Galeria">
+                </div>
+              </div>
+</section>
+
+<!--CARACTERISTICAS-->
+
+<section class="contenedor" id="expertos">
+      <h2 class="subtitulo">Expertos en:</h2>
+      <div class="expertos"
+      <div class="cont-expertos">
+        <img src="img/data.svg" alt="">
+        <h3 class="n-expertos">Múltiples destinos y rutas turistícas</h3>
+      </div>
+      <div class="cont-expertos">
+        <img src="img/notificacion.svg" alt="">
+        <h3 class="n-expertos">Guías certificados y entusisastas</h3>
+      </div>
+      <div class="cont-expertos">
+        <img src="img/presentacion.svg" alt="">
+        <h3 class="n-expertos">Todo en un solo lugar</h3>
+      </div>
+</section>
+
+
+
+<!--FOOTER-->
+
+<footer id="Contacto">
+  <div class="contenedor footer-content">
+    <div class="contact-us">
+      <h2 class="brand">Américo Enrique Cano Sibrian</h2>
+      <p>Sección "B" 22-11782</p>
+    </div>
+
+
+<div class="social-media">
+      <a href="https://www.facebook.com/enrique.cano.31/" target="_blank" class="social-media-icon">
+        <i class='bx bxl-facebook' ></i>
+      </a>
+      <a href="https://www.instagram.com/amecokike/" target="_blank" class="social-media-icon">
+        <i class='bx bxl-instagram'></i>
+      </a>
+      <a href="mailto:acanos2@miumg.edu.gt" target="_blank" class="social-media-icon">
+        <i class='bx bxl-gmail'></i>
+        </a>
+    </div>
+    <div class="line"></div>
+  </div>
+
+</footer>
+
+<footer class="second-footer">
+    <p>
+&copy; <a href="https://www.facebook.com/enrique.cano.31/" target="_blank"></a>
+    Introducción a los Sistemas de Computación
+          </p>
+</footer>
+
+
+
+
+<!--MENU RESPONSIVO-->
+
+    <script src="js/menu.js">
+    </script>
+
+
+
+</body>
+
+
+</html>

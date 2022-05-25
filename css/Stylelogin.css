@@ -1,0 +1,138 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  font-family: Arial;
+  font-style: oblique;
+}
+
+.container{
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient(120deg, rgba(161, 196, 253, 0.5) 0%, rgba(194, 233, 251, 0.5) 100%),
+  url(../img/bannerlogin.jpg);
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+}
+
+.form-box{
+  width: 370px;
+  height: 530px;
+  position: relative;
+  margin: 6% auto;
+  background: #fff;
+  padding: 5px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.button-box{
+  width: 240px;
+  margin: 30px auto;
+  position: relative;
+  box-shadow: 0 0 20px 9px #ebf1ff;
+  border-radius: 30px;
+}
+
+.toggle-btn{
+  padding: 10px 22px;
+  cursor: pointer;
+  background: transparent;
+  border: 0px;
+  outline: none;
+  position: relative;
+}
+
+.toggle-btn:hover{
+  background: linear-gradient(120deg, #f6d365 0%, #f93838 100%);
+    border-radius: 30px;
+}
+
+#elegir{
+  top: 10;
+  left: 10;
+  position: absolute;
+  width: 120px;
+  height: 6%;
+  background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+  border-radius: 30px;
+  transition: 0.8s;
+}
+
+
+.redes-sociales{
+  margin-top: 30px;
+  margin-left: 30px;
+  text-align: center;
+}
+
+.redes-sociales img{
+  align-items: center;
+  width: 50px;
+  margin: 0 12px;
+  box-shadow: 0 0 20px 9px #e0e0e0;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+
+
+.input-group{
+  top: 180px;
+  position: absolute;
+  width: 280px;
+  transition: 0.8s;
+}
+
+.input-field{
+  width: 100%;
+  padding: 10px 0;
+  margin: 5px 0;
+  border-left: 0;
+  border-top: 0;
+  border-right: 0;
+  border-bottom: 2px solid #004d40;
+  outline: none;
+  background: transparent;
+}
+
+.submit-btn{
+  width: 85%;
+  padding: 10px 30px;
+  cursor: pointer;
+  display: block;
+  background: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+  border: 0px;
+  outline: none;
+  border-radius: 30px;
+}
+
+.submit-btn:hover{
+  background: linear-gradient(120deg, #f6d365 0%, #f93838 100%);
+}
+
+
+.check-box{
+  margin: 30px 10px 30px 0;
+}
+
+span{
+ color: #757575;
+ font-size: 12px;
+ bottom: 64px;
+ position: sticky;
+}
+
+#login{
+left: 50px;
+}
+
+#registrar{
+  left: 450px;
+}
+
+.span{
+  color: rgba(227, 28, 28, 0.93);
+  cursor: pointer;
+}

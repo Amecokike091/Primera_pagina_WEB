@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Login</title>
+    <link rel="stylesheet" href="css/Stylelogin.css">
+    <link rel="icon" href="img/1.ico">
+
+  </head>
+
+  <body>
+
+    <div class="container">
+      <div class="form-box">
+        <div class="<button-box"></div>
+        <div id="elegir"></div>
+        <button type="button" class="toggle-btn" onclick="login()" >Iniciar sesión</button>
+        <button type="button" class="toggle-btn" onclick="registrar()" >Registrarse</button>
+
+
+        <div class="redes-sociales">
+          <img src="img/fb.png" alt="">
+          <img src="img/ig.png" alt="">
+          <img src="img/tw.png" alt="">
+        </div>
+
+        <form id="login" class="input-group">
+          <input type="text" class="input-field" placeholder="Usuario" required>
+          <input type="password" class="input-field" placeholder="Contraseña" required>
+
+      <a href="Forgotpass.html"><p>Forgot password? <span class="span">Click here</span></p></a>          
+
+
+          <input type="checkbox" class="check-box" > <span>Recordar contraseña</span>
+          <button type="submit" class="submit-btn" >Acceder</button>
+
+        </form>
+
+
+
+
+        <form id="registrar" class="input-group">
+          <input type="text" class="input-field" placeholder="Usuario" required>
+          <input type="email" class="input-field" placeholder="Correo" required>
+          <input type="password" class="input-field" placeholder="Contraseña" required>
+          <input type="password" class="input-field" placeholder="Confirmar contraseña" required>
+          <input type="checkbox" class="check-box" > <span>Aceptar términos y condiciones</span>
+          <button type="submit" class="submit-btn" >Registrar</button>
+
+      </div>
+
+    </div>
+
+
+<script>
+  var x = document.getElementById("login");
+  var y = document.getElementById("registrar");
+  var z = document.getElementById("elegir");
+
+  function login(){
+    x.style.left = "50px";
+    y.style.left = "450px";
+    z.style.left = "0px";
+  }
+
+  function registrar(){
+    x.style.left = "-400px";
+    y.style.left = "50px";
+    z.style.left = "120px";
+  }
+
+</script>
+
+
+  </body>
+</html>
